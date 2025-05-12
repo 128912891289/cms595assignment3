@@ -9,8 +9,8 @@ func _gui_input(event):
 		# make a clone
 		var clone = duplicate()
 		# scale if needed
-		if GameManager.current_level_data.level_name == "level_3":
-			clone.scale = Vector2(0.5, 0.5)
+		#if GameManager.current_level_data.level_name == "level_3":
+			#clone.scale = Vector2(0.5, 0.5)
 		# different name for each clone
 		clone.name = name + "_" + str(clone_count)
 		clone_count += 1

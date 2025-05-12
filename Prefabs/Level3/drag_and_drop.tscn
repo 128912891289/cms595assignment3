@@ -12,68 +12,70 @@ position = Vector2(102, 126)
 scale = Vector2(0.5, 0.5)
 
 [node name="OTemplate1" type="Sprite2D" parent="H3PO4EquationTemplate"]
-position = Vector2(526, 188)
+position = Vector2(528, 188)
+scale = Vector2(1.9, 1.837)
 texture = ExtResource("1_wp1ij")
 
 [node name="OTemplate2" type="Sprite2D" parent="H3PO4EquationTemplate"]
-position = Vector2(720, 192)
+position = Vector2(810, 190)
+scale = Vector2(1.9, 1.9)
 texture = ExtResource("1_wp1ij")
 
 [node name="DiagramComponents" type="Node2D" parent="H3PO4EquationTemplate"]
 
 [node name="Sprite2D5" type="Sprite2D" parent="H3PO4EquationTemplate/DiagramComponents"]
 modulate = Color(0, 0, 0, 1)
-position = Vector2(502.8, 270.8)
-scale = Vector2(0.2, 0.2)
+position = Vector2(492.8, 306.8)
+scale = Vector2(0.4, 0.4)
 texture = ExtResource("1_wp1ij")
 
 [node name="Sprite2D6" type="Sprite2D" parent="H3PO4EquationTemplate/DiagramComponents"]
 modulate = Color(0, 0, 0, 1)
-position = Vector2(552.8, 270.8)
-scale = Vector2(0.2, 0.2)
+position = Vector2(562.8, 306.8)
+scale = Vector2(0.4, 0.4)
 texture = ExtResource("1_wp1ij")
 
 [node name="Sprite2D7" type="Sprite2D" parent="H3PO4EquationTemplate/DiagramComponents"]
 modulate = Color(0, 0, 0, 1)
-position = Vector2(498.8, 106.8)
-scale = Vector2(0.2, 0.2)
+position = Vector2(494.8, 68.8)
+scale = Vector2(0.4, 0.4)
 texture = ExtResource("1_wp1ij")
 
 [node name="Sprite2D8" type="Sprite2D" parent="H3PO4EquationTemplate/DiagramComponents"]
 modulate = Color(0, 0, 0, 1)
-position = Vector2(548.8, 106.8)
-scale = Vector2(0.2, 0.2)
+position = Vector2(558.8, 66.8)
+scale = Vector2(0.4, 0.4)
 texture = ExtResource("1_wp1ij")
 
 [node name="Sprite2D9" type="Sprite2D" parent="H3PO4EquationTemplate/DiagramComponents"]
 modulate = Color(0, 0, 0, 1)
-position = Vector2(698.8, 110.8)
-scale = Vector2(0.2, 0.2)
+position = Vector2(764.8, 60.8)
+scale = Vector2(0.4, 0.4)
 texture = ExtResource("1_wp1ij")
 
 [node name="Sprite2D10" type="Sprite2D" parent="H3PO4EquationTemplate/DiagramComponents"]
 modulate = Color(0, 0, 0, 1)
-position = Vector2(748.8, 110.8)
-scale = Vector2(0.2, 0.2)
+position = Vector2(846.8, 62.8)
+scale = Vector2(0.4, 0.4)
 texture = ExtResource("1_wp1ij")
 
 [node name="Sprite2D11" type="Sprite2D" parent="H3PO4EquationTemplate/DiagramComponents"]
 modulate = Color(0, 0, 0, 1)
-position = Vector2(696.8, 272.8)
-scale = Vector2(0.2, 0.2)
+position = Vector2(776.8, 312.8)
+scale = Vector2(0.4, 0.4)
 texture = ExtResource("1_wp1ij")
 
 [node name="Sprite2D12" type="Sprite2D" parent="H3PO4EquationTemplate/DiagramComponents"]
 modulate = Color(0, 0, 0, 1)
-position = Vector2(746.8, 272.8)
-scale = Vector2(0.2, 0.2)
+position = Vector2(850.8, 310.8)
+scale = Vector2(0.4, 0.4)
 texture = ExtResource("1_wp1ij")
 
 [node name="Label8" type="Label" parent="H3PO4EquationTemplate/DiagramComponents"]
-offset_left = 586.0
-offset_top = 126.0
-offset_right = 691.0
-offset_bottom = 355.0
+offset_left = 636.0
+offset_top = 132.0
+offset_right = 741.0
+offset_bottom = 361.0
 rotation = -0.00246525
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("2_eeaqi")
@@ -150,19 +152,19 @@ metadata/_edit_use_anchors_ = true
 [node name="O1" type="Control" parent="DropSpots"]
 layout_mode = 3
 anchors_preset = 0
-offset_left = 342.0
-offset_top = 198.0
-offset_right = 391.0
-offset_bottom = 247.0
+offset_left = 318.0
+offset_top = 171.0
+offset_right = 418.0
+offset_bottom = 271.0
 script = ExtResource("4_lv51e")
 correct_name = "Ingredient3"
 
 [node name="O3" type="Control" parent="DropSpots"]
 layout_mode = 3
 anchors_preset = 0
-offset_left = 439.0
-offset_top = 199.0
-offset_right = 488.0
-offset_bottom = 248.0
+offset_left = 461.0
+offset_top = 170.0
+offset_right = 561.0
+offset_bottom = 270.0
 script = ExtResource("4_lv51e")
 correct_name = "Ingredient3"

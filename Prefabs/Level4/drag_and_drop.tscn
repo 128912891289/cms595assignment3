@@ -12,45 +12,49 @@ position = Vector2(102, 126)
 scale = Vector2(0.5, 0.5)
 
 [node name="OTemplate1" type="Sprite2D" parent="H3PO4EquationTemplate"]
-position = Vector2(708, 182)
+position = Vector2(654, 182)
+scale = Vector2(1.984, 1.984)
 texture = ExtResource("1_wp1ij")
 
 [node name="OTemplate2" type="Sprite2D" parent="H3PO4EquationTemplate"]
-position = Vector2(884, 186)
+position = Vector2(950, 186)
+scale = Vector2(1.984, 1.984)
 texture = ExtResource("1_wp1ij")
 
 [node name="HTemplate1" type="Sprite2D" parent="H3PO4EquationTemplate"]
-position = Vector2(900, 430)
+position = Vector2(1130, 570)
+scale = Vector2(1.984, 1.984)
 texture = ExtResource("1_wp1ij")
 
 [node name="HTemplate3" type="Sprite2D" parent="H3PO4EquationTemplate"]
-position = Vector2(1074, 432)
+position = Vector2(1408, 576)
+scale = Vector2(1.98438, 1.98438)
 texture = ExtResource("1_wp1ij")
 
 [node name="DiagramComponents" type="Node2D" parent="H3PO4EquationTemplate"]
 
 [node name="Sprite2D13" type="Sprite2D" parent="H3PO4EquationTemplate/DiagramComponents"]
 modulate = Color(0, 0, 0, 1)
-position = Vector2(638.8, 162.8)
-scale = Vector2(0.2, 0.2)
+position = Vector2(522, 152)
+scale = Vector2(0.4, 0.4)
 texture = ExtResource("1_wp1ij")
 
 [node name="Sprite2D14" type="Sprite2D" parent="H3PO4EquationTemplate/DiagramComponents"]
 modulate = Color(0, 0, 0, 1)
-position = Vector2(638.8, 202.8)
-scale = Vector2(0.2, 0.2)
+position = Vector2(520, 204)
+scale = Vector2(0.4, 0.4)
 texture = ExtResource("1_wp1ij")
 
 [node name="Sprite2D15" type="Sprite2D" parent="H3PO4EquationTemplate/DiagramComponents"]
 modulate = Color(0, 0, 0, 1)
-position = Vector2(960.8, 158.8)
-scale = Vector2(0.2, 0.2)
+position = Vector2(1072, 148)
+scale = Vector2(0.4, 0.4)
 texture = ExtResource("1_wp1ij")
 
 [node name="Sprite2D16" type="Sprite2D" parent="H3PO4EquationTemplate/DiagramComponents"]
 modulate = Color(0, 0, 0, 1)
-position = Vector2(960.8, 198.8)
-scale = Vector2(0.2, 0.2)
+position = Vector2(1076, 208)
+scale = Vector2(0.4, 0.4)
 texture = ExtResource("1_wp1ij")
 
 [node name="Label5" type="Label" parent="H3PO4EquationTemplate/DiagramComponents"]
@@ -64,10 +68,10 @@ theme_override_font_sizes/font_size = 100
 text = "≡"
 
 [node name="Label11" type="Label" parent="H3PO4EquationTemplate/DiagramComponents"]
-offset_left = 954.0
-offset_top = 364.0
-offset_right = 1059.0
-offset_bottom = 593.0
+offset_left = 1240.0
+offset_top = 498.0
+offset_right = 1345.0
+offset_bottom = 727.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("2_eeaqi")
 theme_override_font_sizes/font_size = 100
@@ -136,39 +140,39 @@ metadata/_edit_use_anchors_ = true
 [node name="O1" type="Control" parent="DropSpots"]
 layout_mode = 3
 anchors_preset = 0
-offset_left = 433.0
-offset_top = 195.0
-offset_right = 482.0
-offset_bottom = 244.0
+offset_left = 379.0
+offset_top = 168.0
+offset_right = 481.0
+offset_bottom = 270.0
 script = ExtResource("4_lv51e")
 correct_name = "Ingredient1"
 
 [node name="O3" type="Control" parent="DropSpots"]
 layout_mode = 3
 anchors_preset = 0
-offset_left = 521.0
-offset_top = 196.0
-offset_right = 570.0
-offset_bottom = 245.0
+offset_left = 527.0
+offset_top = 168.0
+offset_right = 629.0
+offset_bottom = 270.0
 script = ExtResource("4_lv51e")
 correct_name = "Ingredient1"
 
 [node name="H1" type="Control" parent="DropSpots"]
 layout_mode = 3
 anchors_preset = 0
-offset_left = 530.0
-offset_top = 316.5
-offset_right = 579.0
-offset_bottom = 365.5
+offset_left = 617.0
+offset_top = 360.0
+offset_right = 719.0
+offset_bottom = 462.0
 script = ExtResource("4_lv51e")
 correct_name = "Ingredient2"
 
 [node name="H3" type="Control" parent="DropSpots"]
 layout_mode = 3
 anchors_preset = 0
-offset_left = 616.5
-offset_top = 317.5
-offset_right = 665.5
-offset_bottom = 366.5
+offset_left = 756.0
+offset_top = 365.0
+offset_right = 858.0
+offset_bottom = 467.0
 script = ExtResource("4_lv51e")
 correct_name = "Ingredient2"
