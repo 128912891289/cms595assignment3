@@ -5,7 +5,7 @@
 [ext_resource type="FontFile" uid="uid://c1cpubp5x6y1l" path="res://fonts/LilitaOne-Regular.ttf" id="3_bqqt6"]
 [ext_resource type="StyleBox" uid="uid://c0j65wo0rxbma" path="res://themes/menu_panel_variant_2style_box.tres" id="4_8ln24"]
 [ext_resource type="Theme" uid="uid://bc463cnh1wi1g" path="res://themes/button_variant_1.tres" id="5_rtw2f"]
-[ext_resource type="PackedScene" uid="uid://b151sb0d1ixnj" path="res://prefabs/options_overlay.tscn" id="6_826wr"]
+[ext_resource type="PackedScene" uid="uid://b151sb0d1ixnj" path="res://Prefabs/options_overlay.tscn" id="6_826wr"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bqqt6"]
 bg_color = Color(0.568627, 0.568627, 0.568627, 1)

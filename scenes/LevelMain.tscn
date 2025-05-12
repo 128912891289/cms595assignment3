@@ -16,7 +16,7 @@
 [ext_resource type="Texture2D" uid="uid://c4m53on4njbrj" path="res://assets/art/pressedhelpbutton.png" id="12_b8tex"]
 [ext_resource type="Texture2D" uid="uid://8ma36l1du3c7" path="res://assets/art/hoverhelpbutton.png" id="13_64wss"]
 [ext_resource type="Script" uid="uid://bhfxgiio8tees" path="res://scripts/timer.gd" id="16_4ohlc"]
-[ext_resource type="PackedScene" uid="uid://b151sb0d1ixnj" path="res://prefabs/options_overlay.tscn" id="17_amrb8"]
+[ext_resource type="PackedScene" uid="uid://b151sb0d1ixnj" path="res://Prefabs/options_overlay.tscn" id="17_amrb8"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qixek"]
 bg_color = Color(1, 1, 1, 1)
@@ -234,15 +234,6 @@ layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
-metadata/_edit_use_anchors_ = true
-
-[node name="MenuBackground1" type="Panel" parent="UILayer/StageNavBar"]
-layout_mode = 0
-offset_left = -50.0
-offset_top = 560.0
-offset_right = 1350.0
-offset_bottom = 760.0
-theme_override_styles/panel = ExtResource("3_7l2ql")
 metadata/_edit_use_anchors_ = true
 
 [node name="LabLineButton" type="Button" parent="UILayer/StageNavBar"]
