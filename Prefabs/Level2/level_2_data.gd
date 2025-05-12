@@ -16,24 +16,24 @@ var level_start_time = Time.get_ticks_msec()
 var timer_limit = 180
 
 # lab line variables
-var ticket_text = "[b]Want to make:\nHCl[/b]
+var ticket_text = "[b]Want to make:\nH2O[/b]
 -------------------
-CH4+Cl2\n->\n?+HCl
+2H2 + O2\n->\n2H2O
 -------------------
-[b]Make atoms:[/b]\nC, H, Cl
-[b]Make molecules:[/b]\nCH4, Cl2"
+[b]Make atoms:[/b]\nH, O
+[b]Make molecules:[/b]\nH2, O2"
 var customer_dialogues = [
 		[
-			"Hey.",
-			"I need some HCl.",
-			"I want to make fireworks with it.",
-			"...for science."
+			"I'm parched!",
+			"I need some water, please.",
+			"Mix up some H2O!",
+			"Let's hydrate!"
 		]
 	]
 var customer = preload("res://prefabs/level2/customer.tscn")
 
 # atom assembler variables
-const required_atoms = ["C", "H", "Cl"]
+const required_atoms = ["H", "O"]
 var current_atoms = []
 
 # molecule maker variables

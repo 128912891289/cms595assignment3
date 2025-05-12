@@ -38,7 +38,8 @@ offset_bottom = 38.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("2_qst7n")
 theme_override_font_sizes/font_size = 30
-text = "H3PO4"
+text = "C"
+horizontal_alignment = 1
 
 [node name="Ingredient2" type="Node2D" parent="."]
 position = Vector2(848, 302)
@@ -56,7 +57,8 @@ offset_bottom = 37.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("2_qst7n")
 theme_override_font_sizes/font_size = 30
-text = "KOH"
+text = "O2"
+horizontal_alignment = 1
 
 [node name="Result1" type="Node2D" parent="."]
 modulate = Color(1, 1, 1, 0)
@@ -75,27 +77,8 @@ offset_bottom = 39.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("2_qst7n")
 theme_override_font_sizes/font_size = 30
-text = "K3PO4"
-
-[node name="Result2" type="Node2D" parent="."]
-modulate = Color(1, 1, 1, 0)
-position = Vector2(750, 300)
-
-[node name="Sprite2D" type="Sprite2D" parent="Result2"]
-modulate = Color(0.197572, 0.742062, 0.767917, 1)
-position = Vector2(2, -2)
-texture = ExtResource("1_7v56b")
-
-[node name="Label" type="Label" parent="Result2"]
-offset_left = -25.0
-offset_top = -18.0
-offset_right = 57.0
-offset_bottom = 37.0
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("2_qst7n")
-theme_override_font_sizes/font_size = 30
-text = "H2O"
-metadata/_edit_use_anchors_ = true
+text = "CO2"
+horizontal_alignment = 1
 
 [node name="QuestionOverlay" type="Control" parent="."]
 layout_mode = 3
@@ -132,7 +115,7 @@ theme_override_font_sizes/bold_font_size = 30
 bbcode_enabled = true
 text = "[b]You're almost there![/b]
 
-Before we make K3PO4, let's think - what else do you think will be made by putting H3PO4 and KOH together?
+You used carbon and oxygen to make CO2. What type of element is oxygen?
 
 Make a guess!"
 horizontal_alignment = 1
@@ -150,25 +133,27 @@ script = ExtResource("4_n4otl")
 layout_mode = 2
 size_flags_horizontal = 3
 theme = ExtResource("5_sec6g")
-text = "O2"
+text = "Metal
+"
 
 [node name="GuessButton2" type="Button" parent="QuestionOverlay/GuessButtons"]
 layout_mode = 2
 size_flags_horizontal = 3
 theme = ExtResource("5_sec6g")
-text = "2POH"
+text = "Molecule"
 
 [node name="GuessButton3" type="Button" parent="QuestionOverlay/GuessButtons"]
 layout_mode = 2
 size_flags_horizontal = 3
 theme = ExtResource("5_sec6g")
-text = "KOH"
+text = "Atom
+"
 
 [node name="GuessButton4" type="Button" parent="QuestionOverlay/GuessButtons"]
 layout_mode = 2
 size_flags_horizontal = 3
 theme = ExtResource("5_sec6g")
-text = "3H2O"
+text = "Compound"
 
 [node name="CloseOverlayButton" type="Button" parent="QuestionOverlay"]
 visible = false
@@ -204,7 +189,7 @@ theme_override_font_sizes/bold_font_size = 30
 bbcode_enabled = true
 text = "[b]Congratulations![/b]
 
- You made K3PO4 successfully."
+ You made CO2 successfully."
 horizontal_alignment = 1
 
 [node name="Button" type="Button" parent="SuccessMessage"]
@@ -219,7 +204,7 @@ script = ExtResource("8_5dw8d")
 
 [connection signal="pressed" from="QuestionOverlay/GuessButtons/GuessButton1" to="QuestionOverlay/GuessButtons" method="_on_incorrect_guess_button_pressed"]
 [connection signal="pressed" from="QuestionOverlay/GuessButtons/GuessButton2" to="QuestionOverlay/GuessButtons" method="_on_incorrect_guess_button_pressed"]
-[connection signal="pressed" from="QuestionOverlay/GuessButtons/GuessButton3" to="QuestionOverlay/GuessButtons" method="_on_incorrect_guess_button_pressed"]
-[connection signal="pressed" from="QuestionOverlay/GuessButtons/GuessButton4" to="QuestionOverlay/GuessButtons" method="_on_correct_guess_button_pressed"]
+[connection signal="pressed" from="QuestionOverlay/GuessButtons/GuessButton3" to="QuestionOverlay/GuessButtons" method="_on_correct_guess_button_pressed"]
+[connection signal="pressed" from="QuestionOverlay/GuessButtons/GuessButton4" to="QuestionOverlay/GuessButtons" method="_on_incorrect_guess_button_pressed"]
 [connection signal="pressed" from="QuestionOverlay/CloseOverlayButton" to="QuestionOverlay/CloseOverlayButton" method="_on_pressed"]
 [connection signal="pressed" from="SuccessMessage/Button" to="SuccessMessage/Button" method="_on_pressed"]

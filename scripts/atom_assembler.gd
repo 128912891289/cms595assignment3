@@ -71,9 +71,9 @@ func add_atom_components(component_type: String, number: int):
 	update_counters()
 
 func update_counters():
-	proton_counter.text = "Proton Count:\n"
-	neutron_counter.text = "Neutron Count:\n"
-	electron_counter.text = "Electron Count:\n"
+	proton_counter.text = "Protons:\n"
+	neutron_counter.text = "Neutrons:\n"
+	electron_counter.text = "Electrons:\n"
 	proton_counter.text += str(protons)
 	neutron_counter.text += str(neutrons)
 	electron_counter.text += str(electrons)

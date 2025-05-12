@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://dmimpeka06r7c"]
 
-[ext_resource type="Texture2D" uid="uid://cbkne8fvr2tiy" path="res://assets/art/molenpc4.png" id="1_ljj64"]
+[ext_resource type="Texture2D" uid="uid://d28uu2h7ee3ef" path="res://assets/art/molenpc3.png" id="1_u5621"]
 [ext_resource type="Theme" uid="uid://cjt1wgi2nnutb" path="res://themes/ChatBubbleTheme.tres" id="2_j8ysn"]
 [ext_resource type="Theme" uid="uid://bc463cnh1wi1g" path="res://themes/button_variant_1.tres" id="3_t8o4f"]
 
@@ -8,8 +8,8 @@
 
 [node name="CustomerSprite" type="Sprite2D" parent="."]
 position = Vector2(367, 368)
-scale = Vector2(0.315918, 0.315918)
-texture = ExtResource("1_ljj64")
+scale = Vector2(0.28343, 0.28343)
+texture = ExtResource("1_u5621")
 
 [node name="DialogueUI" type="Control" parent="."]
 layout_mode = 3

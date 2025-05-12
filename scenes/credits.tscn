@@ -45,24 +45,17 @@ offset_right = 729.0
 offset_bottom = 576.0
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_fonts/normal_font = ExtResource("3_g618n")
+theme_override_fonts/italics_font = ExtResource("3_g618n")
 theme_override_fonts/bold_font = ExtResource("3_g618n")
-theme_override_font_sizes/normal_font_size = 15
+theme_override_font_sizes/italics_font_size = 20
+theme_override_font_sizes/normal_font_size = 20
 theme_override_font_sizes/bold_font_size = 30
 bbcode_enabled = true
-text = "[b]Programming:[/b]
-Lead Programmer: Julia Fortt
-Programmer: Kent Brought
+text = "[i]This game was made as part of the Massachusetts Institute of Technology CMS.590: Design and Development of Games for Learning class. [/i] 
 
-[b]Art & Animation:[/b]
-Lead Artist: Kent Brought
-Artist: Julia Fortt
-
-[b]Music & Audio:[/b]
-Composer/Sound Designer: Julia Fortt
-
-[b]Game Design:[/b]
-Kent Brought
+[b]Contributors:[/b]
 Julia Fortt
+Kent Brought
 Konstantina Rasvani
 Kidus Yohannes"
 horizontal_alignment = 1
