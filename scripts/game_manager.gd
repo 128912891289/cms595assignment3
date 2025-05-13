@@ -7,31 +7,31 @@ signal stage_access_enabled(stage_name: String)
 func start_level(level_name: String):
 	#print("level start: " + level_name)
 	if level_name == "level_1":
-		var level_data_script = preload("res://prefabs/level1/level_1_data.gd")
+		var level_data_script = preload("res://Prefabs/level1/level_1_data.gd")
 		current_level_data = level_data_script.new()
 	elif level_name == "level_2":
-		var level_data_script = preload("res://prefabs/level2/level_2_data.gd")
+		var level_data_script = preload("res://Prefabs/level2/level_2_data.gd")
 		current_level_data = level_data_script.new()
 	elif level_name == "level_3":
-		var level_data_script = preload("res://prefabs/level3/level_3_data.gd")
+		var level_data_script = preload("res://Prefabs/level3/level_3_data.gd")
 		current_level_data = level_data_script.new()
 	elif level_name == "level_4":
-		var level_data_script = preload("res://prefabs/level4/level_4_data.gd")
+		var level_data_script = preload("res://Prefabs/level4/level_4_data.gd")
 		current_level_data = level_data_script.new()
 	elif level_name == "level_5":
-		var level_data_script = preload("res://prefabs/level5/level_5_data.gd")
+		var level_data_script = preload("res://Prefabs/level5/level_5_data.gd")
 		current_level_data = level_data_script.new()
 	elif level_name == "level_6":
-		var level_data_script = preload("res://prefabs/level6/level_6_data.gd")
+		var level_data_script = preload("res://Prefabs/level6/level_6_data.gd")
 		current_level_data = level_data_script.new()
 	elif level_name == "level_7":
-		var level_data_script = preload("res://prefabs/level7/level_7_data.gd")
+		var level_data_script = preload("res://Prefabs/level7/level_7_data.gd")
 		current_level_data = level_data_script.new()
 	elif level_name == "level_8":
-		var level_data_script = preload("res://prefabs/level8/level_8_data.gd")
+		var level_data_script = preload("res://Prefabs/level8/level_8_data.gd")
 		current_level_data = level_data_script.new()
 	elif level_name == "level_9":
-		var level_data_script = preload("res://prefabs/level9/level_9_data.gd")
+		var level_data_script = preload("res://Prefabs/level9/level_9_data.gd")
 		current_level_data = level_data_script.new()
 	else:
 		push_error("invalid level selected!")

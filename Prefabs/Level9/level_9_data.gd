@@ -30,20 +30,20 @@ var customer_dialogues = [
 	"I can smell the sugar already!"
 	]
 ]
-var customer = preload("res://prefabs/level9/customer.tscn")
+var customer = preload("res://Prefabs/level9/customer.tscn")
 
 # atom assembler variables
 const required_atoms = ["Na", "Cl", "C", "O", "H", "N"]
 var current_atoms = []
 
 # molecule maker variables
-var drag_and_drop = preload("res://prefabs/level9/drag_and_drop.tscn")
+var drag_and_drop = preload("res://Prefabs/level9/drag_and_drop.tscn")
 
 # synthesis station variables
-var synthesis_quiz = preload("res://prefabs/level9/synthesis_quiz.tscn")
+var synthesis_quiz = preload("res://Prefabs/level9/synthesis_quiz.tscn")
 
 # level completed variables
-var character_sprite = preload("res://prefabs/level9/character_sprite.tscn")
+var character_sprite = preload("res://Prefabs/level9/character_sprite.tscn")
 var level_completed_message = "[b]Level 9 Completed![/b]"
 
 # run every time an atom is made successfully
