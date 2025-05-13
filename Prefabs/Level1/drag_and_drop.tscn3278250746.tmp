@@ -68,10 +68,10 @@ metadata/_edit_use_anchors_ = true
 [node name="H1" type="Control" parent="DropSpots"]
 layout_mode = 3
 anchors_preset = 0
-offset_left = 425.0
-offset_top = 171.0
-offset_right = 477.0
-offset_bottom = 222.0
+offset_left = 412.0
+offset_top = 169.0
+offset_right = 464.0
+offset_bottom = 220.0
 scale = Vector2(2.13653, 2.13653)
 script = ExtResource("4_lv51e")
 correct_name = "Ingredient3"
@@ -79,9 +79,9 @@ correct_name = "Ingredient3"
 [node name="H2" type="Control" parent="DropSpots"]
 layout_mode = 3
 anchors_preset = 0
-offset_left = 538.0
+offset_left = 535.0
 offset_top = 177.0
-offset_right = 585.0
+offset_right = 582.0
 offset_bottom = 224.0
 scale = Vector2(2.14006, 2.14006)
 script = ExtResource("4_lv51e")
