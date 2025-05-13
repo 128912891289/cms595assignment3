@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://bmb5aawfjr524"]
+[gd_scene load_steps=5 format=3 uid="uid://bmb5aawfjr52a"]
 
 [ext_resource type="Texture2D" uid="uid://cic0dipab7gi4" path="res://assets/art/circle.png" id="1_wp1ij"]
 [ext_resource type="FontFile" uid="uid://c1cpubp5x6y1l" path="res://fonts/LilitaOne-Regular.ttf" id="2_eeaqi"]
@@ -68,10 +68,10 @@ metadata/_edit_use_anchors_ = true
 [node name="H1" type="Control" parent="DropSpots"]
 layout_mode = 3
 anchors_preset = 0
-offset_left = 422.0
-offset_top = 177.0
-offset_right = 463.0
-offset_bottom = 218.0
+offset_left = 398.0
+offset_top = 161.0
+offset_right = 459.0
+offset_bottom = 220.0
 scale = Vector2(2.13653, 2.13653)
 script = ExtResource("4_lv51e")
 correct_name = "Ingredient3"
@@ -79,10 +79,10 @@ correct_name = "Ingredient3"
 [node name="H2" type="Control" parent="DropSpots"]
 layout_mode = 3
 anchors_preset = 0
-offset_left = 536.0
-offset_top = 181.0
-offset_right = 577.0
-offset_bottom = 222.0
+offset_left = 528.0
+offset_top = 171.0
+offset_right = 584.0
+offset_bottom = 225.0
 scale = Vector2(2.14006, 2.14006)
 script = ExtResource("4_lv51e")
 correct_name = "Ingredient3"

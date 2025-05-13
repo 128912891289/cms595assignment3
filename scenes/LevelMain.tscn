@@ -15,7 +15,7 @@
 [ext_resource type="Texture2D" uid="uid://if5qwvalvorr" path="res://assets/art/helpbutton.png" id="11_brpn3"]
 [ext_resource type="Texture2D" uid="uid://c4m53on4njbrj" path="res://assets/art/pressedhelpbutton.png" id="12_b8tex"]
 [ext_resource type="Texture2D" uid="uid://8ma36l1du3c7" path="res://assets/art/hoverhelpbutton.png" id="13_64wss"]
-[ext_resource type="Script" uid="uid://bhfxgiio8tees" path="res://scripts/timer.gd" id="16_4ohlc"]
+[ext_resource type="Script" path="res://scripts/timer.gd" id="16_4ohlc"]
 [ext_resource type="PackedScene" uid="uid://b151sb0d1ixnj" path="res://Prefabs/options_overlay.tscn" id="17_amrb8"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qixek"]

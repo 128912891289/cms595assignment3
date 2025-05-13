@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://dmimpeka06r7c"]
+[gd_scene load_steps=4 format=3 uid="uid://dmimpeka06r7i"]
 
 [ext_resource type="Texture2D" uid="uid://bxpccvwmcdxmm" path="res://assets/art/molenpc9.png" id="1_4cpqh"]
 [ext_resource type="Theme" uid="uid://cjt1wgi2nnutb" path="res://themes/ChatBubbleTheme.tres" id="2_j8ysn"]

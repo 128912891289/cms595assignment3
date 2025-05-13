@@ -4,7 +4,7 @@
 [ext_resource type="Theme" uid="uid://bc463cnh1wi1g" path="res://themes/button_variant_1.tres" id="2_c1rnj"]
 [ext_resource type="Script" uid="uid://dgjybt40nolb7" path="res://scripts/close_parent_button.gd" id="3_73gtt"]
 [ext_resource type="FontFile" uid="uid://c1cpubp5x6y1l" path="res://fonts/LilitaOne-Regular.ttf" id="4_xw13n"]
-[ext_resource type="Script" uid="uid://0t41v1y3d638" path="res://scripts/volume_sliders.gd" id="5_c1rnj"]
+[ext_resource type="Script" path="res://scripts/volume_sliders.gd" id="5_c1rnj"]
 
 [node name="OptionsOverlay" type="Control"]
 visible = false

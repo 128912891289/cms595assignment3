@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://csaibb48p6fcr"]
+[gd_scene load_steps=10 format=3 uid="uid://csaibb48p6fcf"]
 
 [ext_resource type="Texture2D" uid="uid://cic0dipab7gi4" path="res://assets/art/circle.png" id="1_kslil"]
 [ext_resource type="FontFile" uid="uid://c1cpubp5x6y1l" path="res://fonts/LilitaOne-Regular.ttf" id="2_cpelt"]
@@ -7,7 +7,7 @@
 [ext_resource type="Theme" uid="uid://bc463cnh1wi1g" path="res://themes/button_variant_1.tres" id="5_v25m1"]
 [ext_resource type="Script" uid="uid://dgjybt40nolb7" path="res://scripts/close_parent_button.gd" id="6_nkk14"]
 [ext_resource type="Texture2D" uid="uid://m1i46obw5w1v" path="res://assets/art/sparkle.png" id="7_hf3vg"]
-[ext_resource type="Script" uid="uid://bdtk48ojnjtcq" path="res://scripts/success_button.gd" id="8_3s8ge"]
+[ext_resource type="Script" path="res://scripts/success_button.gd" id="8_3s8ge"]
 
 [sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_fbuuf"]
 particle_flag_disable_z = true
